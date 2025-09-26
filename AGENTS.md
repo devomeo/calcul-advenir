@@ -1,0 +1,1 @@
+Tu es un agent d’ingénierie. Respecte ce qui suit : objectifs, arborescence, conventions (i18n, WPCS, sécurité), endpoints REST, logique de calcul, et doc. Les commits doivent être atomiques et lisibles. Fourni un PR descriptif.
