@@ -1,0 +1,277 @@
+.aew-container {
+max-width: 640px;
+margin: 0 auto;
+font-family: inherit;
+color: #1f2937;
+}
+
+.aew-card {
+background: #ffffff;
+border-radius: 12px;
+box-shadow: 0 6px 24px rgba(15, 23, 42, 0.08);
+padding: 2rem;
+border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.aew-progress {
+font-weight: 600;
+margin-bottom: 1rem;
+color: #0f172a;
+}
+
+.aew-question-title {
+font-size: 1.5rem;
+margin: 0 0 1rem;
+color: #0f172a;
+}
+
+.aew-question-description {
+margin: 0 0 1.5rem;
+color: #475569;
+}
+
+.aew-options {
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+.aew-option {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+padding: 0.75rem 1rem;
+margin-bottom: 0.5rem;
+border: 1px solid rgba(15, 23, 42, 0.12);
+border-radius: 10px;
+transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.aew-option input[type="radio"] {
+margin: 0;
+}
+
+.aew-option label {
+flex: 1;
+cursor: pointer;
+}
+
+.aew-option:hover,
+.aew-option:focus-within {
+border-color: #2563eb;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.aew-number-field input[type="number"] {
+width: 100%;
+padding: 0.75rem 1rem;
+border-radius: 10px;
+border: 1px solid rgba(15, 23, 42, 0.12);
+font-size: 1rem;
+}
+
+.aew-number-field input[type="number"]:focus {
+outline: none;
+border-color: #2563eb;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.aew-field-error {
+margin-top: 0.75rem;
+color: #dc2626;
+font-weight: 600;
+}
+
+.aew-navigation {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 2rem;
+gap: 1rem;
+}
+
+.aew-btn {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+padding: 0.75rem 1.5rem;
+border-radius: 9999px;
+font-weight: 600;
+cursor: pointer;
+border: none;
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.aew-btn-primary {
+background: linear-gradient(135deg, #2563eb, #1d4ed8);
+color: #ffffff;
+box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
+}
+
+.aew-btn-primary:hover,
+.aew-btn-primary:focus-visible {
+transform: translateY(-1px);
+box-shadow: 0 16px 40px rgba(37, 99, 235, 0.35);
+}
+
+.aew-btn-secondary {
+background: #e2e8f0;
+color: #1f2937;
+}
+
+.aew-btn-secondary:hover,
+.aew-btn-secondary:focus-visible {
+background: #cbd5f5;
+}
+
+.aew-btn:disabled {
+opacity: 0.5;
+cursor: not-allowed;
+box-shadow: none;
+}
+
+.aew-result {
+margin-top: 2rem;
+}
+
+.aew-result-card {
+border-radius: 12px;
+border: 1px solid rgba(15, 23, 42, 0.12);
+padding: 1.75rem;
+background: #f8fafc;
+}
+
+.aew-result-title {
+margin: 0 0 1rem;
+font-size: 1.4rem;
+}
+
+.aew-result-title--success {
+color: #047857;
+}
+
+.aew-result-title--warning {
+color: #b91c1c;
+}
+
+.aew-result-message {
+margin: 0 0 1.5rem;
+color: #334155;
+}
+
+.aew-amounts {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+gap: 1rem;
+margin: 0 0 1.5rem;
+}
+
+.aew-amounts dt {
+font-weight: 600;
+color: #0f172a;
+}
+
+.aew-amounts dd {
+margin: 0;
+color: #1e293b;
+font-size: 1.1rem;
+}
+
+.aew-scenario {
+background: #ffffff;
+border-radius: 10px;
+padding: 1rem 1.25rem;
+border: 1px solid rgba(37, 99, 235, 0.2);
+margin-bottom: 1.5rem;
+}
+
+.aew-scenario-title {
+margin: 0 0 0.5rem;
+font-weight: 600;
+color: #1d4ed8;
+}
+
+.aew-footnote {
+margin: 0.5rem 0 0;
+font-size: 0.875rem;
+color: #475569;
+}
+
+.aew-summary-title {
+margin: 0 0 0.75rem;
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+.aew-summary {
+list-style: none;
+padding: 0;
+margin: 0;
+display: grid;
+gap: 0.75rem;
+}
+
+.aew-summary li {
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+background: #ffffff;
+border-radius: 10px;
+padding: 0.75rem 1rem;
+border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.aew-summary-label {
+font-weight: 600;
+color: #1f2937;
+}
+
+.aew-summary-value {
+color: #0f172a;
+}
+
+.aew-loading {
+text-align: center;
+color: #1f2937;
+}
+
+.aew-error-card {
+background: #fef2f2;
+border: 1px solid #fca5a5;
+border-radius: 10px;
+padding: 1.5rem;
+text-align: center;
+}
+
+.aew-error-title {
+margin-top: 0;
+color: #b91c1c;
+}
+
+.aew-visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
+}
+
+@media (max-width: 600px) {
+.aew-card {
+padding: 1.5rem;
+}
+
+.aew-navigation {
+flex-direction: column;
+align-items: stretch;
+}
+
+.aew-btn {
+width: 100%;
+}
+}
